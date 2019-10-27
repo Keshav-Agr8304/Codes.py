@@ -5,6 +5,7 @@ def maxi(x):
         if x[i] > m:
             m = x[i]
         i += 1
+    return m
 
 ar = list(map(int, input().split()))
 print(maxi(ar))
